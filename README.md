@@ -35,11 +35,11 @@ docker compose up --build
 Доступ: http://localhost:3000
 ```
 ## Архітектура
--HTTP-сервер (3000) → UDP Socket (5001) → MongoDB (27017)
--Форма /message.html відправляє POST
--HTTP-сервер передає дані через UDP
--Socket-сервер зберігає в MongoDB
--Редирект на головну
+- HTTP-сервер (3000) → UDP Socket (5001) → MongoDB (27017)
+- Форма /message.html відправляє POST
+- HTTP-сервер передає дані через UDP
+- Socket-сервер зберігає в MongoDB
+- Редирект на головну
 
 ##  Перевірка даних
 ```bash
